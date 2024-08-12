@@ -15,10 +15,10 @@ function encriptar() {
         document.getElementById("texto").value = textoCifrado;
         tituloMensaje.textContent = "Texto encriptado con éxito";
         parrafo.textContent = "";
-        ilustracion.src = "./img/wired-outline-1092-applause.gif";
+        ilustracion.src = "./img/aplausos.gif";
         document.getElementById("copiar-div").style.display = "block"; // CAMBIO: Muestra el botón de copiar al encriptar
     } else {
-        ilustracion.src = "./img/wired-outline-261-emoji-smile.gif";
+        ilustracion.src = "./img/cara.gif";
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         swal("Ooops!", "Debes ingresar un texto", "warning");
@@ -43,7 +43,7 @@ function desencriptar() {
         document.getElementById("texto").value = textoCifrado;
         tituloMensaje.textContent = "Texto desencriptado con éxito";
         parrafo.textContent = "";
-        ilustracion.src = "./img/wired-outline-237-star-rating.gif";
+        ilustracion.src = "./img/estrella.gif";
         document.getElementById("copiar-div").style.display = "none"; // CAMBIO: Oculta el botón de copiar al desencriptar
     } else {
         ilustracion.src = "./img/wired-outline-261-emoji-smile.gif";
